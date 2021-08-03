@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.listen(port, function (err, serve) {
     if (err) {
-        console.log("Error in serve");
+        console.log("Error in server.");
     }
     else {
         console.log("App is running successfully.");
