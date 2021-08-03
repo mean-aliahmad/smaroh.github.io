@@ -3,9 +3,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 1525;
 import dotenv from 'dotenv';
-// import {db} from './src/db/mongodb'
+// import {Mongoose} from './src/db/mongodb'
 dotenv.config();
 
 app.use(bodyParser.json());
