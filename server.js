@@ -1,20 +1,24 @@
-const bodyParser = require('body-parser');
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000
+'use strict';
+
+import express from 'express';
+import bodyParser from 'body-parser';
+var app = express();
+var port = process.env.PORT || 3000;
+import dotenv from 'dotenv';
+// import {db} from './src/db/mongodb'
+dotenv.config();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
-app.get("/", (req, res) => {
+app.get("/", function (req, res) {
     res.send({ message: "Smaroh server is up and running" });
 });
 
 app.listen(port, function (err, serve) {
     if (err) {
         console.log("Error in server.");
+    } else {
+        console.log(`App running successfully on ${port}`);
     }
-    else {
-        console.log("App is running successfully.");
-    }
-})
+});
