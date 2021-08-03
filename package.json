@@ -1,0 +1,49 @@
+{
+  "name": "smaroh.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "clone-response": "^1.0.2",
+    "debug": "^2.6.9",
+    "decompress-response": "^3.3.0",
+    "dot-prop": "^5.3.0",
+    "express": "^4.17.1",
+    "is-installed-globally": "^0.3.2",
+    "is-number": "^7.0.0",
+    "is-obj": "^2.0.0",
+    "is-path-inside": "^3.0.3",
+    "is-typedarray": "^1.0.0",
+    "is-yarn-global": "^0.3.0",
+    "json-buffer": "^3.0.0",
+    "keyv": "^3.1.0",
+    "lowercase-keys": "^1.0.1",
+    "make-dir": "^3.1.0",
+    "media-typer": "^0.3.0",
+    "mime": "^1.6.0",
+    "mime-db": "^1.49.0",
+    "mime-types": "^2.1.32",
+    "mimic-response": "^1.0.1",
+    "minimist": "^1.2.5",
+    "ms": "^2.0.0",
+    "negotiator": "^0.6.2",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mean-aliahmad/smaroh.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mean-aliahmad/smaroh.github.io/issues"
+  },
+  "homepage": "https://github.com/mean-aliahmad/smaroh.github.io#readme"
+}
