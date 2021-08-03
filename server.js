@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 app.get("/",(req,res)=>{
-    res.send({message:"Tere samajh se bahar hai"});
+    res.send({message:"bhosdike"});
 });
 
 app.listen(port, function (err, serve) {
