@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 app.get("/",(req,res)=>{
-    res.send({message:"Smaroh is running"})
+    res.send({message:"Tere samajh se bahar hai"});
 });
 
 app.listen(port, function (err, serve) {
@@ -15,6 +15,6 @@ app.listen(port, function (err, serve) {
         console.log("Error in serve");
     }
     else {
-        console.log("App is running successfully.")
+        console.log("App is running successfully.");
     }
 })
